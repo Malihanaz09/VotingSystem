@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voting-System</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1><em>Add Or Vote Your Friend</em></h1>
+        <input type="text" id="inputName" placeholder="Enter friend name" />
+        <button onclick="add()" class="addBtn">Add friend</button>
+        <div>
+            <ol>
+                <li class="num">Maliha <button>0</button></li>
+                <li class="num">Mahnoor<button><span>0</span></button>
+                </li>
+                <li class="num">Yusra <button><span>0</span></button>
+                </li>
+                <li class="num">Manahil <button><span>0</span></button>
+                </li>
+                <li class="num">Bisma<button><span>0</span></button>
+                </li>
+            </ol>
+        </div>
+        <!-- input li -->
+        <div>
+            <ol id="nameList" class="num2">
+            </ol>
+        </div>
+    </div>
+</body>
+<script src=" ./app.js "></script>
+
+</html>

@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    background-image: url(https://www.bedford.gov.uk/sites/default/files/styles/news_articlebanner/public/2023-01/Bedford%20Borough%20Council%20Budget%20Consultation%20%2811%29.png?itok=b-2kk8GQ);
+    background-color: brown;
+    background-size: cover;
+}
+
+.container {
+    /* background-color: rgb(197, 197, 123); */
+    width: 400px;
+    height: 500px;
+    padding: 10px 30px;
+    backdrop-filter: blur(20px);
+    /* border-left: 30px; */
+    /* border-radius: 20px; */
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 2px solid rgb(163, 155, 155);
+    box-shadow: 5px 5px 10px black;
+}
+
+input {
+    width: 200px;
+    /* margin: auto; */
+    padding: 5px 20px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input:hover {
+    box-shadow: -5px 5px 10px black;
+    color: white;
+    background-color: rgb(75, 50, 50);
+}
+
+.addBtn {
+    background-image: url(https://www.bedford.gov.uk/sites/default/files/styles/news_articlebanner/public/2023-01/Bedford%20Borough%20Council%20Budget%20Consultation%20%2811%29.png?itok=b-2kk8GQ);
+    background-size: cover;
+    width: 130px;
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: italic;
+    font-weight: bolder;
+    color: black;
+}
+
+button:hover {
+    box-shadow: -5px 5px 10px black;
+}
+
+li {
+    padding: 5px 50px;
+    margin: 5px;
+    /* background-color: white; */
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+    font-family: italic;
+    font-weight: bold;
+}
+
+li:hover {
+    background-color: white;
+}
+
+button {
+    margin-left: 100px;
+    border: none;
+    width: 50px;
+    border-radius: 10px;
+}
+
+
+/* span {
+    margin-left: 100px;
+    padding: 10px;
+} */

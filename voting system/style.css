@@ -48,8 +48,8 @@ input:hover {
     border: none;
     cursor: pointer;
     font-family: italic;
-    font-weight: bolder;
-    color: black;
+    font-weight: bold;
+    color: white;
 }
 
 button:hover {
@@ -89,10 +89,10 @@ button {
 
 @media (max-width: 768px) {
     body{
-        margin:2px
+        margin:1px
     }
     .container {
-    width: 300px;
-    padding: 5px;
+    width: 270px;
+    padding: 2px;
     }
 }

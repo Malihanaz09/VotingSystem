@@ -2,7 +2,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 80px;
+    margin: 70px;
     background-image: url(https://www.bedford.gov.uk/sites/default/files/styles/news_articlebanner/public/2023-01/Bedford%20Borough%20Council%20Budget%20Consultation%20%2811%29.png?itok=b-2kk8GQ);
     background-color: brown;
     background-size: cover;
@@ -93,7 +93,6 @@ button {
     }
     .container {
     width: 300px;
-    height: 3500px;
     padding: 5px;
     }
 }
